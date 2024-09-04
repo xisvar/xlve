@@ -1,8 +1,11 @@
+@import url('https://fonts.cdnfonts.com/css/tasa-orbiter-display');
+
 *,:before,:after {
     box-sizing: border-box;
     border-width: 0;
     border-style: solid;
-    border-color: #e5e7eb
+    border-color: #e5e7eb;
+    font-family: 'TASA Orbiter Display';
 }
 
 :before,:after {
@@ -15,7 +18,8 @@ html,:host {
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
-    font-family: Inter,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    /* font-family: Inter,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"; */
+    font-family: 'TASA Orbiter Display';
     font-feature-settings: normal;
     font-variation-settings: normal;
     -webkit-tap-highlight-color: transparent
@@ -2231,7 +2235,8 @@ select {
 
 .bg-black {
     --tw-bg-opacity: 1;
-    background-color: rgb(15 16 20 / var(--tw-bg-opacity))
+    /* background-color: rgb(15 16 20 / var(--tw-bg-opacity)) */
+    background-color: #08010a;
 }
 
 .bg-black\/20 {
