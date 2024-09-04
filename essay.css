@@ -36,9 +36,6 @@ h4{
 p{
     color: rgb(210, 210, 210);
     font-size: 15px;
-    animation: fadeIn 1s ease-in-out forwards;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
 }
 
 .frame{
@@ -57,7 +54,7 @@ p{
 
 .des{
     display: grid;
-    padding: 0 220px;
+    padding: 0 260px;
 }
 
 em{
