@@ -178,11 +178,11 @@ input::placeholder,textarea::placeholder {
 }
 
 button,[role=button] {
-    cursor: pointer
+    cursor: pointer;
 }
 
 :disabled {
-    cursor: default
+    cursor: default;
 }
 
 img,svg,video,canvas,audio,iframe,embed,object {
@@ -191,7 +191,8 @@ img,svg,video,canvas,audio,iframe,embed,object {
 
 img,video {
     max-width: 100%;
-    height: auto
+    height: auto;
+    object-fit: cover;
 }
 
 [hidden] {
@@ -2403,11 +2404,11 @@ select {
 }
 
 .bg-gradientdown {
-    background-image: radial-gradient(140% 107.13% at 50% 10%,transparent 37.41%,#364ef580 69.27%,#6698ff 100%)
+    background-image: radial-gradient(140% 107.13% at 50% 10%,transparent 37.41%,#af36f580 69.27%,#e566ff 100%)
 }
 
 .bg-gradientup {
-    background-image: radial-gradient(131.66% 109.77% at 50% 97.75%,transparent 37.41%,#364ef580 69.27%,#6698ff 100%)
+    background-image: radial-gradient(131.66% 109.77% at 50% 97.75%,transparent 37.41%,#af36f580 69.27%,#e566ff 100%)
 }
 
 .from-blue-300 {
@@ -2436,11 +2437,11 @@ select {
 }
 
 .bg-cover {
-    background-size: cover
+    background-size: cover;
 }
 
 .bg-center {
-    background-position: center
+    background-position: center;
 }
 
 .fill-green-500 {
@@ -2449,17 +2450,22 @@ select {
 
 .object-cover {
     -o-object-fit: cover;
-    object-fit: cover
+    object-fit: cover;
+}
+
+.object-contain {
+    -o-object-fit: contain;
+    object-fit: contain;
 }
 
 .object-center {
     -o-object-position: center;
-    object-position: center
+    object-position: center;
 }
 
 .object-left {
     -o-object-position: left;
-    object-position: left
+    object-position: left;
 }
 
 .p-0 {
