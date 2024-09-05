@@ -45,8 +45,8 @@
                <div x-data="{ open: false }" class="relative flex flex-col w-full p-3 mx-auto bg-black/70 border border-white/10 shadow-thick backdrop-blur-xl backdrop-filter rounded-xl md:rounded-full md:items-center md:justify-between md:flex-row md:px-6">
                   <div class="flex flex-row items-center justify-between md:justify-start">
                      <a class="text-white hover:text-white/50 items-center font-bold gap-3 inline-flex text-lg" href="/" title="link to your page" aria-label="your label">
-                        <img src="/images/w-logo.png" class="size-4 object-contain" alt="">
-                        <span>xlve</span> 
+                        <img src="/images/w-logo.png" data-aos="flip-left" class="size-4 object-contain" alt="">
+                        <span data-aos="fade-down">xlve</span> 
                      </a>
                      <button @click="open = !open" class="inline-flex items-center justify-center p-2 text-zinc-400 hover:text-blue-300 focus:outline-none focus:text-white md:hidden">
                         <svg class="size-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -65,7 +65,7 @@
                            community
                            </a> 
                         </li>
-                        <li> <a href="/apply.html" title="apply for a grant" aria-label="apply for a grant" class="py-1.5 px-4 border focus:ring-2 text-xs rounded-full border-transparent bg-white hover:bg-white/10 text-black duration-200 focus:ring-offset-2 focus:ring-white hover:text-white inline-flex items-center justify-center ring-1 ring-transparent lg:ml-auto">
+                        <li> <a href="/apply.html" title="apply for xlve s1" aria-label="apply for xlve s1" class="py-1.5 px-4 border focus:ring-2 text-xs rounded-full border-transparent bg-white hover:bg-white/10 text-black duration-200 focus:ring-offset-2 focus:ring-white hover:text-white inline-flex items-center justify-center ring-1 ring-transparent lg:ml-auto">
                            apply
                            </a> 
                         </li>
@@ -89,7 +89,7 @@
                   </h2>
                   <p class="mt-4 text-base text-white text-balance">we are where passionate & cool people use tech for social good.</p>
                   <div class="mt-10 flex items-center gap-x-6 justify-center ">
-                        <a href="/apply.html" title="apply for a grant" aria-label="apply for a grant" class="text-sm py-2 px-4 border focus:ring-2 rounded-full border-transparent bg-white hover:bg-white/10 text-black duration-200 focus:ring-offset-2 focus:ring-white hover:text-white inline-flex items-center justify-center ring-1 ring-transparent">apply</a> 
+                        <a href="/apply.html" title="apply for xlve s1" aria-label="apply for xlve s1" class="text-sm py-2 px-4 border focus:ring-2 rounded-full border-transparent bg-white hover:bg-white/10 text-black duration-200 focus:ring-offset-2 focus:ring-white hover:text-white inline-flex items-center justify-center ring-1 ring-transparent">apply</a> 
                         <a href="https://discord.gg/MBZTXtHbMW" title="join our community" aria-label="join our community" class="text-sm hover:text-blue-200 text-white">community<span aria-hidden="true">→</span></a>
                  </div>
                </div>
@@ -102,7 +102,7 @@
                          <span class="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-white/10">
                          what is xlve?
                          </span> 
-                         <h1 class="text-3xl mt-6 tracking-tight font-light lg:text-6xl text-white">
+                         <h1 class="text-3xl mt-6 tracking-tight font-light lg:text-6xl text-white" data-aos="fade-down">
                             <span class="block text-zinc-400">about xlve</span> 
                          </h1>
                          <div class="mt-6 text-white space-y-3">
@@ -130,13 +130,13 @@
                 <div class="mx-auto 2xl:max-w-7xl py-24 lg:px-16 md:px-12 px-8 xl:px-36 items-center lg:py-24 relative w-full bg-gradientup rounded-[3rem]">
                    <div class="mx-auto max-w-2xl lg:mx-0 pb-12 border-b border-white/10">
                       <span class="text-white">our team</span> 
-                      <h2 class="text-3xl mt-6 tracking-tight font-light lg:text-4xl text-white">
+                      <h2 class="text-3xl mt-6 tracking-tight font-light lg:text-4xl text-white" data-aos="fade-down">
                         our team at xlve passionate about creativity and new innovation.<span class="md:block text-zinc-300"></span>
                          </span> 
                       </h2>
                    </div>
                    <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6">
-                      <li>
+                      <li data-aos="flip-left">
                          <a href="https://x.com/xisvariable" title="xisvar" class="space-y-4">
                             <img class="mx-auto h-20 lg:h-24 lg:w-24 rounded-full w-20" src="/images/team/1.jpg" alt="Adewal">
                             <div class="space-y-2">
@@ -147,7 +147,7 @@
                             </div>
                          </a>
                       </li>
-                      <li>
+                      <li data-aos="flip-left">
                          <a href="https://x.com/Danieliyanu001" title="suhas" class="space-y-4">
                             <img class="mx-auto h-20 lg:h-24 lg:w-24 rounded-full w-20" src="/images/team/dan.jpg" alt="Daniel">
                             <div class="space-y-2">
@@ -158,7 +158,7 @@
                             </div>
                          </a>
                       </li>
-                      <li>
+                      <li data-aos="flip-left">
                         <a href="https://www.linkedin.com/in/ero/" title="rishabh" class="space-y-4">
                            <img class="mx-auto h-20 lg:h-24 lg:w-24 rounded-full w-20" src="/images/team/er.jpg" alt="Semilore">
                            <div class="space-y-2">
@@ -169,7 +169,7 @@
                            </div>
                         </a>
                      </li>
-                      <li>
+                      <li data-aos="flip-left">
                         <a href="https://www.linkedin.com/in/xisvar" title="xisvar" class="space-y-4">
                            <img class="mx-auto h-20 lg:h-24 lg:w-24 rounded-full w-20" src="/images/team/sol.jpg" alt="var">
                            <div class="space-y-2">
@@ -189,8 +189,8 @@
                <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-16 md:px-12 px-8 xl:px-36 items-center relative w-full">
                   <div class="max-w-xl mx-auto">
                      <span class="text-blue-400"> FAQ</span> 
-                     <h2 class="text-3xl mt-6 tracking-tight font-light lg:text-4xl text-white">
-                        The answers to your <span class="block text-zinc-400">Frequently Asked Questions</span> 
+                     <h2 class="text-3xl mt-6 tracking-tight font-light lg:text-4xl text-white" data-aos="fade-left">
+                        The answers to your <span  data-aos="fade-left" class="block text-zinc-400">Frequently Asked Questions</span> 
                      </h2>
                      <p class="mt-5 text-white">
                         If you can’t find what you’re looking for, <u><a href="mailto:xlvedotcapital@gmail.com">email</a></u> our support team, and we will get back to you.
@@ -198,49 +198,49 @@
                      <ul role="list" class="grid grid-cols1 mt-24 divide-y border-y border-white/10 divide-white/10">
                         <li class="py-6">
                             <div>
-                                <p class="text-base font-medium leading-6 text-white">How does xlve work?</p>
+                                <p class="text-base font-medium leading-6 text-white" data-aos="fade-left">How does xlve work?</p>
                             </div>
-                            <div class="mt-4 text-sm text-white/70 text-pretty">
+                            <div class="mt-4 text-sm text-white/70 text-pretty" data-aos="fade-down">
                                 xlve is designed to empower young people to collaborate on solving significant social issues. xlvers can engage in problem-solving challenges, contribute to projects, and get recognized for their skills and contributions. whe platform uses a merit-based system to ensure that all efforts are rewarded fairly.
                             </div>
                         </li>
                         <li class="py-6">
                             <div>
-                                <p class="text-base font-medium leading-6 text-white">Who can join xlve?</p>
+                                <p class="text-base font-medium leading-6 text-white" data-aos="fade-left">Who can join xlve?</p>
                             </div>
-                            <div class="mt-4 text-sm text-white/70 text-pretty">
+                            <div class="mt-4 text-sm text-white/70 text-pretty" data-aos="fade-down">
                                 xlve is open to anyone passionate about making a difference, regardless of age, background, or experience level. Whether you're a student, a young professional, or simply someone with a desire to contribute to social change, you're welcome to join.
                             </div>
                         </li>
                         <li class="py-6">
                             <div>
-                                <p class="text-base font-medium leading-6 text-white">What kind of challenges can I participate in?</p>
+                                <p class="text-base font-medium leading-6 text-white" data-aos="fade-left">What kind of challenges can I participate in?</p>
                             </div>
-                            <div class="mt-4 text-sm text-white/70 text-pretty">
+                            <div class="mt-4 text-sm text-white/70 text-pretty" data-aos="fade-down">
                                 xlve offers a variety of challenges centered around pressing social issues such as education, healthcare, and sustainable development. Each challenge is designed to test different skills and encourage creative problem-solving. Members can choose challenges based on their interests and expertise.
                             </div>
                         </li>
                         <li class="py-6">
                             <div>
-                                <p class="text-base font-medium leading-6 text-white">How are contributions recognized?</p>
+                                <p class="text-base font-medium leading-6 text-white" data-aos="fade-left">How are contributions recognized?</p>
                             </div>
-                            <div class="mt-4 text-sm text-white/70 text-pretty">
+                            <div class="mt-4 text-sm text-white/70 text-pretty" data-aos="fade-down">
                                 xlve uses a merit-based system to recognize and reward contributions. Members earn points, badges, and other forms of recognition based on the quality and impact of their work. These recognitions help build your reputation within the community and can lead to additional opportunities.
                             </div>
                         </li>
                         <li class="py-6">
                             <div>
-                                <p class="text-base font-medium leading-6 text-white">Can I work on my own projects within xlve?</p>
+                                <p class="text-base font-medium leading-6 text-white" data-aos="fade-left">Can I work on my own projects within xlve?</p>
                             </div>
-                            <div class="mt-4 text-sm text-white/70 text-pretty">
+                            <div class="mt-4 text-sm text-white/70 text-pretty" data-aos="fade-down">
                                 Absolutely! xlve encourages members to bring their own ideas and projects to the platform. You can find collaborators, receive feedback, and even secure funding through xlve's resources to help bring your project to life.
                             </div>
                         </li>
                         <li class="py-6">
                             <div>
-                                <p class="text-base font-medium leading-6 text-white">Is there any cost to join xlve?</p>
+                                <p class="text-base font-medium leading-6 text-white" data-aos="fade-left">Is there any cost to join xlve?</p>
                             </div>
-                            <div class="mt-4 text-sm text-white/70 text-pretty">
+                            <div class="mt-4 text-sm text-white/70 text-pretty" data-aos="fade-down">
                                 No, joining xlve is completely free. We believe in providing equal opportunities for everyone, so there are no membership fees or hidden costs. All you need is a commitment to making a positive impact.
                             </div>
                         </li>
@@ -253,12 +253,12 @@
          <section class="p-8">
             <div class="mx-auto 2xl:max-w-7xl py-24 items-center lg:py-24 relative w-full bg-gradientdown rounded-[3rem]">
                <div class="text-center max-w-xl md:mx-auto">
-                  <h2 class="text-3xl tracking-tight font-light lg:text-4xl text-white">
+                  <h2 class="text-3xl tracking-tight font-light lg:text-4xl text-white" data-aos="fade-down">
                         Start Building Today <span class="block text-zinc-400"></span> 
                   </h2>
-                  <p class="mt-5 text-white">Fill out a ~ 2 minute application to begin your journey taciling social issues.. </p>
-                  <div class="inline-flex flex-wrap items-center mt-8"> <a href="/apply.html" title="apply for a grant" aria-label="apply for a grant" class="text-sm py-2 px-4 border focus:ring-2 rounded-full border-transparent bg-white hover:bg-white/10 text-black duration-200 focus:ring-offset-2 focus:ring-white hover:text-white inline-flex items-center justify-center ring-1 ring-transparent">
-                     apply for a grant
+                  <p class="mt-5 text-white" data-aos="fade-up">Fill out a ~ 2 minute application to begin your journey taciling social issues.. </p>
+                  <div class="inline-flex flex-wrap items-center mt-8" data-aos="fade-up"> <a href="/apply.html" title="apply for xlve s1" aria-label="apply for xlve s1" class="text-sm py-2 px-4 border focus:ring-2 rounded-full border-transparent bg-white hover:bg-white/10 text-black duration-200 focus:ring-offset-2 focus:ring-white hover:text-white inline-flex items-center justify-center ring-1 ring-transparent">
+                     apply for xlve s1
                      </a> 
                   </div>
                </div>
@@ -270,8 +270,8 @@
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
                <div class="text-white">
                   <span class="text-lg inline-flex items-center gap-3 font-semibold lg:text-2xl">
-                     <img src="/images/w-logo.png" class="size-6 object-contain" alt="">
-                     xlve
+                     <img src="/images/w-logo.png" data-aos="flip-left" class="size-6 object-contain" alt="">
+                     <span data-aos="fade-down">xlve</span>
                   </span>
                </div>
                <div class="grid grid-cols-2 gap-8 xl:col-span-2 text-zinc-400 text-xs">
