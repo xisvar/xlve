@@ -8,6 +8,22 @@
     font-family: 'TASA Orbiter Display';
 }
 
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 55px;
+    height: 7px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #161616; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #e204ff; 
+}
+
+
 :before,:after {
     --tw-content: ""
 }
@@ -2832,7 +2848,7 @@ select {
 
 .text-blue-400 {
     --tw-text-opacity: 1;
-    color: rgb(95 15 247 / var(--tw-text-opacity))
+    color: #e204ff
 }
 
 .text-blue-500 {
@@ -3704,7 +3720,7 @@ select {
 
 .hover\:text-blue-200:hover {
     --tw-text-opacity: 1;
-    color: rgb(172 183 251 / var(--tw-text-opacity))
+    color: #a600bc;
 }
 
 .hover\:text-blue-300:hover {
@@ -3714,7 +3730,7 @@ select {
 
 .hover\:text-blue-400:hover {
     --tw-text-opacity: 1;
-    color: rgb(95 115 247 / var(--tw-text-opacity))
+    color: #e204ff;
 }
 
 .hover\:text-blue-500:hover {

@@ -5,6 +5,21 @@
     font-family: 'TASA Orbiter Display';
 }
 
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 55%;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #161616; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #e204ff; 
+}
+
+
 body{
     background-color: black;
 }
