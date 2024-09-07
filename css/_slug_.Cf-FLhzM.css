@@ -3586,7 +3586,7 @@ select {
 
 .prose-styles :is(:where(strong):not(:where([class~=not-prose],[class~=not-prose] *))) {
     --tw-text-opacity: 1;
-    color: rgb(54 78 245 / var(--tw-text-opacity))
+    color: #a600bc
 }
 
 .prose-styles :is(:where(code):not(:where([class~=not-prose],[class~=not-prose] *))) {
