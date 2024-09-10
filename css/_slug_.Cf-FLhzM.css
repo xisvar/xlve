@@ -2200,6 +2200,10 @@ select {
     border-color: #0f10141a
 }
 
+.border-white{
+    border: 2px inset white;
+}
+
 .border-blue-400 {
     --tw-border-opacity: 1;
     border-color: rgb(95 115 247 / var(--tw-border-opacity))
