@@ -6,6 +6,7 @@
     border-style: solid;
     border-color: #e5e7eb;
     font-family: 'TASA Orbiter Display';
+    transition: .3s ease;
 }
 
 ::-webkit-scrollbar {
@@ -3908,6 +3909,11 @@ select {
 .hover\:prose-a\:text-white\/50 :is(:where(a):not(:where([class~=not-prose],[class~=not-prose] *))):hover {
     color: #ffffff80
 }
+
+.hoverscale:hover{
+    transform: scale(1.03);
+}
+
 
 @media (min-width: 640px) {
     .sm\:mx-auto {
