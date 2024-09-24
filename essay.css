@@ -55,10 +55,10 @@ body{
         font-size: 14px;
     }
 
-    .des a{
+    a{
         font-size: 15px;
         color: #c9c9c9;
-        
+        text-decoration: underline;
     }
 
     .filler{
