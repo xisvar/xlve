@@ -5,6 +5,8 @@
     font-family: 'TASA Orbiter Display';
 }
 
+
+
 ::-webkit-scrollbar {
     width: 3px;
     border-radius: 55%;
@@ -24,32 +26,7 @@ body{
     background-color: black;
 }
 
-h1 , h2, h3, h4, h5{
-    color: white;
-    margin: 20px 0;
-}
 
-h1{
-    font-size: 22px;
-}
-
-h2{
-    font-size: 18px;
-}
-
-h3{
-    font-size: 16px;
-}
-
-h4{
-    font-size: 14px;
-    color: rgb(231, 231, 231);
-}
-
-p{
-    color: rgb(210, 210, 210);
-    font-size: 12px;
-}
 
 .frame{
     width: 100%;
@@ -68,26 +45,54 @@ p{
 .des{
     display: grid;
     padding: 0 260px;
-}
-
-em{
-    color: aliceblue;
-}
-
-li{
-    color:  rgb(210, 210, 210);
-    font-size: 14px;
-}
-
-.des a{
-    font-size: 15px;
-    color: #c9c9c9;
     
+    em{
+        color: aliceblue;
+    }
+
+    li{
+        color:  rgb(210, 210, 210);
+        font-size: 14px;
+    }
+
+    .des a{
+        font-size: 15px;
+        color: #c9c9c9;
+        
+    }
+
+    .filler{
+        width: 10px;
+    }
+
+    h1 , h2, h3, h4, h5{
+        color: white;
+        margin: 20px 0;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    h4{
+        font-size: 14px;
+        color: rgb(231, 231, 231);
+    }
+
+    p{
+        color: rgb(210, 210, 210);
+        font-size: 12px;
+    }
 }
 
-.filler{
-    width: 10px;
-}
 
 @media (max-width: 992px) {
 .des {
