@@ -44,7 +44,44 @@
 </head>
 <body>
     <section class="frame" style="background-image: url(/images/xlve\ -\ Home\ -\ Google\ Chrome\ 9_5_2024\ 12_08_43\ PM.png);">
+      <div class="fixed top-4 inset-x-0 z-50">
+         <div class="lg:max-w-xl mx-auto px-8">
+            <div class="w-full mx-auto">
+               <div x-data="{ open: false }" class="relative flex flex-col w-full p-3 mx-auto bg-black/70 border border-white/10 shadow-thick backdrop-blur-xl backdrop-filter rounded-xl md:rounded-full md:items-center md:justify-between md:flex-row md:px-6">
+                  <div class="flex flex-row items-center justify-between md:justify-start">
+                     <a class="text-white hover:text-white/50 items-center font-bold gap-3 inline-flex text-lg" href="/" title="link to your page" aria-label="your label">
+                        <img src="/images/w-logo.png" data-aos="flip-left" class="size-4 object-contain" alt="">
+                        <span data-aos="fade-down">xlve</span> 
+                     </a>
+                     <button @click="open = !open" class="inline-flex items-center justify-center p-2 text-zinc-400 hover:text-blue-300 focus:outline-none focus:text-white md:hidden">
+                        <svg class="size-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                           <path :class="{'hidden': open, 'inline-flex': !open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                           <path :class="{'hidden': !open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                     </button>
+                  </div>
+                  <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden py-12 md:py-0 md:flex md:items-end justify-center md:flex-row">
+                     <ul class="space-y-2 list-none md:space-y-0 text-xs text-white md:ml-auto items-center md:inline-flex justify-center text-center md:text-left gap-3">
+                        <li> <a href="/portfolio" title="view the companies backed by xlve" aria-label="view the companies backed by xlve" class="lg:py-10 hover:text-blue-400">
+                           portfolio
+                           </a> 
+                        </li>
+                        <li> <a href="https://discord.gg/rD9vgQ6BCg" title="join our community" aria-label="join our community" class="lg:py-10  hover:text-blue-400">
+                           community
+                           </a> 
+                        </li>
+                        <li> <a href="/apply" title="apply for xlve s1" aria-label="apply for xlve s1" class="py-1.5 px-4 border focus:ring-2 text-xs rounded-full border-transparent bg-white hover:bg-white/10 text-black duration-200 focus:ring-offset-2 focus:ring-white hover:text-white inline-flex items-center justify-center ring-1 ring-transparent lg:ml-auto">
+                           apply
+                           </a> 
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
     </section>
+
 
     <div class="des relative w-full bg-gradientdown rounded-[3rem]">
         <h1 data-aos="fade-down">ResearchIT's Work and Ideas: Our Journey and Vision</h1>
