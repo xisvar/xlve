@@ -16,6 +16,42 @@
 </head>
 <body>
     <section class="frame" style="background-image: url(/images/meritedu/meritedu-01.png); background-position: center; background-size: cover;">
+        <div class="fixed top-4 inset-x-0 z-50">
+            <div class="lg:max-w-xl mx-auto px-8">
+               <div class="w-full mx-auto">
+                  <div x-data="{ open: false }" class="relative flex flex-col w-full p-3 mx-auto bg-black/70 border border-white/10 shadow-thick backdrop-blur-xl backdrop-filter rounded-xl md:rounded-full md:items-center md:justify-between md:flex-row md:px-6">
+                     <div class="flex flex-row items-center justify-between md:justify-start">
+                        <a class="text-white hover:text-white/50 items-center font-bold gap-3 inline-flex text-lg" href="/" title="link to your page" aria-label="your label">
+                           <img src="/images/w-logo.png" data-aos="flip-left" class="size-4 object-contain" alt="">
+                           <span data-aos="fade-down">xlve</span> 
+                        </a>
+                        <button @click="open = !open" class="inline-flex items-center justify-center p-2 text-zinc-400 hover:text-blue-300 focus:outline-none focus:text-white md:hidden">
+                           <svg class="size-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                              <path :class="{'hidden': open, 'inline-flex': !open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                              <path :class="{'hidden': !open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                           </svg>
+                        </button>
+                     </div>
+                     <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden py-12 md:py-0 md:flex md:items-end justify-center md:flex-row">
+                        <ul class="space-y-2 list-none md:space-y-0 text-xs text-white md:ml-auto items-center md:inline-flex justify-center text-center md:text-left gap-3">
+                           <li> <a href="/portfolio" title="view the companies backed by xlve" aria-label="view the companies backed by xlve" class="lg:py-10 hover:text-blue-400">
+                              portfolio
+                              </a> 
+                           </li>
+                           <li> <a href="https://discord.gg/rD9vgQ6BCg" title="join our community" aria-label="join our community" class="lg:py-10  hover:text-blue-400">
+                              community
+                              </a> 
+                           </li>
+                           <li> <a href="/apply" title="apply for xlve s1" aria-label="apply for xlve s1" class="py-1.5 px-4 border focus:ring-2 text-xs rounded-full border-transparent bg-white hover:bg-white/10 text-black duration-200 focus:ring-offset-2 focus:ring-white hover:text-white inline-flex items-center justify-center ring-1 ring-transparent lg:ml-auto">
+                              apply
+                              </a> 
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
     </section>
 
     <div class="des">
@@ -41,16 +77,18 @@
             Issues with Modern Schooling
         </h2>
         <p>Recent research indicates that over 70% of courses offered in colleges are either overpriced or irrelevant to students' primary fields of study (Selingo, 2013). For example, a disproportionate number of general education requirements bear little relation to students' majors, with students taking mandatory courses like culinary arts or music appreciation as part of engineering or business degrees (Bok, 2006). This misalignment leads to dissatisfaction and frustration among students. Data from the National Center for Education Statistics (2018) show that more than 60% of college graduates find themselves working in jobs unrelated to their degrees, with a significant portion remaining unemployed or underemployed despite their qualifications (Abel, Deitz, & Su, 2014).</p>
+        <br>
         <p>Furthermore, a survey of 3,000 students conducted as part of this study reveals that many students, especially those from low-income families, feel undervalued and overlooked in the academic system. They may excel in exams and coursework, but their actual potential remains unrecognized in a system that values institutional prestige over individual skill and creativity. The pandemic brought many of these inequities into sharper focus, as students from disadvantaged backgrounds struggled to access remote learning tools, thereby exacerbating existing disparities (Reich et al., 2020).</p>
         <p>The issues plaguing modern schooling in Nigeria are multifaceted, ranging from underfunding to systemic corruption, with dire consequences for the future of the nation. One of the most significant concerns is the insufficient ratio of GDP spent on education. Nigeria's spending on education consistently falls far short of global standards. In 2021, the country allocated just around 5.68% of its national budget to education, which is grossly inadequate when compared to the 26% recommended by UNESCO. This neglect results in underfunded schools, poor infrastructure, outdated teaching materials, and a chronic lack of professional development for teachers. The direct impact of this underinvestment is evident in the quality of graduates the system produces—many of whom struggle to find jobs due to an education system that fails to equip them with the skills needed for the 21st-century workforce.
         </p>
+        <br>
         <p>
             Graduate unemployment is another alarming issue. Despite the growing number of graduates churned out by universities each year, many struggle to secure employment in their fields. This isn’t just a reflection of the country's poor job market but also a testament to the declining standards in education. Employers often find that graduates lack essential skills, making them unemployable despite their degrees. The problem stems from outdated curricula, lack of practical knowledge, and insufficient exposure to real-world applications. As a result, the education system has become a factory producing graduates who cannot meet the needs of Nigeria's industries.
         </p>
         <p>
             Beyond the economic challenges, the moral decay within the education system is equally concerning. There is a growing prevalence of unethical behavior, particularly among lecturers who exploit their positions of power. It is becoming increasingly common for students, especially female students, to face sexual harassment and be coerced into exchanging sexual favors for better grades. This systemic abuse undermines the very fabric of education, turning academic achievement into something that can be bought rather than earned. The failure to adequately address these ethical breaches sends a clear message—that those in positions of power can get away with gross misconduct, thus eroding trust in the system and further demoralizing students.
         </p>
-
+        <br>
         <p>
             Society’s warped values further compound the problem. Fraudsters, or "Yahoo boys," who flaunt ill-gotten wealth are often celebrated rather than condemned, setting a terrible example for the younger generation. In a country where legitimate hard work and education often do not yield financial success, it is no surprise that the allure of quick, illicit money becomes stronger. This societal endorsement of fraud perpetuates the idea that education is not a path to prosperity but rather a waste of time. Consequently, many students lose faith in the value of schooling altogether.
         </p>
@@ -62,7 +100,7 @@
         <p>
             To compound matters, there is a stark lack of merit-based scholarships for the few scholars who do excel. Those who are deserving of financial aid to further their education are often left to fend for themselves, as scholarships are either too few or given based on connections rather than merit. Meanwhile, underqualified and incompetent teachers dominate the classroom, further stagnating the learning process. In many cases, teachers themselves are products of a broken system—undereducated, underpaid, and demotivated. These teachers lack the passion and capability to ignite curiosity and creativity in their students, perpetuating the cycle of mediocrity in education.
         </p>
-
+        <br>
         <p>
             In addition, the abuse of power by the elite further exacerbates the inequality in Nigeria's educational system. Children of wealthy and influential individuals are often given preferential treatment, not only in terms of admissions into top-tier schools but also in securing top jobs. This blatant nepotism results in the saturation of critical positions in industries with individuals who did not earn their roles through merit but through connections. Meanwhile, graduates who are genuinely talented and deserving find themselves marginalized, unable to access the opportunities they deserve.
         </p>

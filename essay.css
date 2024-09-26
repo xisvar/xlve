@@ -23,7 +23,7 @@
 
 
 body{
-    background-color: black;
+    background-color: #08010a;
 }
 
 
@@ -68,18 +68,19 @@ body{
     h1 , h2, h3, h4, h5{
         color: white;
         margin: 20px 0;
+        font-weight: 700;
     }
 
     h1{
-        font-size: 22px;
+        font-size: 28px;
     }
 
     h2{
-        font-size: 18px;
+        font-size: 24px;
     }
 
     h3{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     h4{
@@ -89,7 +90,7 @@ body{
 
     p{
         color: rgb(210, 210, 210);
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
