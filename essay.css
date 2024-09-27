@@ -46,10 +46,6 @@ body{
     display: grid;
     padding: 0 260px;
     
-    em{
-        color: aliceblue;
-    }
-
     li{
         color:  rgb(210, 210, 210);
         font-size: 14px;
