@@ -22,6 +22,7 @@
         }
         )
     }
+    
     function f(e) {
         if (e.includes("full"))
             return .99;
