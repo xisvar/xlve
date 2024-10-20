@@ -1,0 +1,242 @@
+@import url('https://fonts.cdnfonts.com/css/tasa-orbiter-display');
+
+*{
+
+    font-family: 'TASA Orbiter Display';
+}
+
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 55%;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #161616; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #e204ff; 
+}
+
+
+body{
+    background-color: #08010a;
+}
+
+
+
+.frame{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.frame h1{
+    font-weight: 900;
+    font-size: 40px;
+    color: black;
+}
+
+.des{
+    display: grid;
+    padding: 0 260px;
+
+    li{
+        color:  rgb(210, 210, 210);
+        font-size: 14px;
+    }
+
+    a{
+        font-size: 15px;
+        color: #c9c9c9;
+        text-decoration: underline;
+    }
+
+    .filler{
+        width: 10px;
+    }
+
+    h1 , h2, h3, h4, h5{
+        color: white;
+        margin: 20px 0;
+        font-weight: 700;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    h4{
+        font-size: 18px;
+        color: rgb(231, 231, 231);
+    }
+
+    p{
+        color: rgb(210, 210, 210);
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 992px) {
+.des {
+padding: 0 100px;
+}
+
+.frame h1 {
+font-size: 28px;
+}
+
+h1 {
+font-size: 24px;
+}
+
+h2 {
+font-size: 20px;
+}
+
+h3 {
+font-size: 16px;
+}
+
+p {
+font-size: 13px;
+}
+}
+
+@media (max-width: 768px) {
+.des {
+padding: 0 50px;
+}
+
+.frame {
+height: 70vh;
+}
+
+.frame h1 {
+font-size: 24px;
+padding: 8px 16px;
+}
+
+h1 {
+font-size: 22px;
+}
+
+h2 {
+font-size: 18px;
+}
+
+h3 {
+font-size: 14px;
+}
+
+p {
+font-size: 12px;
+}
+}
+
+
+@media (max-width: 992px) {
+.des {
+padding: 0 100px;
+}
+
+.frame h1 {
+font-size: 28px;
+}
+
+h1 {
+font-size: 24px;
+}
+
+h2 {
+font-size: 20px;
+}
+
+h3 {
+font-size: 16px;
+}
+
+p {
+font-size: 13px;
+}
+}
+
+@media (max-width: 768px) {
+.des {
+padding: 0 50px;
+}
+
+.frame {
+height: 80vh;
+}
+
+.frame h1 {
+font-size: 24px;
+padding: 8px 16px;
+}
+
+h1 {
+font-size: 22px;
+}
+
+h2 {
+font-size: 18px;
+}
+
+h3 {
+font-size: 14px;
+}
+
+p {
+font-size: 12px;
+}
+}
+
+@media (max-width: 576px) {
+.des {
+padding: 0 20px;
+}
+
+.frame {
+height: 65vh;
+}
+
+.frame h1 {
+font-size: 20px;
+padding: 6px 12px;
+}
+
+h1 {
+font-size: 20px;
+}
+
+h2 {
+font-size: 16px;
+}
+
+h3 {
+font-size: 12px;
+}
+
+p {
+font-size: 11px;
+}
+
+em {
+font-size: 14px;
+}
+}
