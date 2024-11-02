@@ -17,6 +17,28 @@
                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-T9TQC6TR');
          </script>
+         <style>
+            .download-icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background-color: #e204ff; /* Green color for icon */
+            mask: url('download-icon.svg') no-repeat center; /* SVG file for download icon */
+            mask-size: contain;
+            -webkit-mask: url('download-icon.svg') no-repeat center;
+            -webkit-mask-size: contain;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            }
+
+            .download-icon:hover {
+            background-color: #C317EC;
+            }
+
+            .download-icon:active {
+            background-color: #e204ff;
+            }
+         </style>
          <!-- End Google Tag Manager -->
         <meta name="title" content="xlve">
         <meta name="description" content="where passionate individuals solve real-world problems">
@@ -99,6 +121,9 @@
                          <h2 class="text-3xl mt-6 tracking-tight font-light lg:text-6xl text-white text-balance">
                              RouteIQ
                          </h2>
+                         <br>
+                         <p class="text-zinc-400 text-sm"><a class="download-icon" onclick="downloadFile()" title="Download">Download Proposal</a></p>
+                         
                      </div>
                      <img class="mt-12 lg:mt-0 object-cover rounded-[3rem] border-white" src="/images/routeiq/routeiq.png" alt="#">
                  </div>
@@ -245,6 +270,22 @@
                          </div>
                      </div>
                  </div>
+
+             
+               <script>
+                 // JavaScript function to download a file
+                 function downloadFile() {
+                   const fileUrl = 'routeIQ.docx'; // Replace with the file path or URL
+                   const fileName = 'RouteIQ by xlve (proposal)'; // Replace with the file's display name
+             
+                   const anchor = document.createElement('a');
+                   anchor.href = fileUrl;
+                   anchor.download = fileName;
+                   document.body.appendChild(anchor);
+                   anchor.click();
+                   document.body.removeChild(anchor);
+                 }
+               </script>
              </div>
          </section>
      </main>
