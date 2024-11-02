@@ -19,24 +19,26 @@
          </script>
          <style>
             .download-icon {
-            display: inline-block;
-            width: 24px;
-            height: 24px;
-            background-color: #e204ff; /* Green color for icon */
-            mask: url('download-icon.svg') no-repeat center; /* SVG file for download icon */
-            mask-size: contain;
-            -webkit-mask: url('download-icon.svg') no-repeat center;
-            -webkit-mask-size: contain;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
+                display: inline-block;
+                width: 34px;
+                height: 34px;
+                background-color: #e204ff; /* Green color for icon */
+                mask: url('download-icon.svg') no-repeat center; /* SVG file for download icon */
+                mask-size: contain;
+                -webkit-mask: url('download-icon.svg') no-repeat center;
+                -webkit-mask-size: contain;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+                margin-left: 1rem;
+                transform: translateY(.4rem);
             }
 
             .download-icon:hover {
-            background-color: #C317EC;
+                background-color: #C317EC;
             }
 
             .download-icon:active {
-            background-color: #e204ff;
+                background-color: #e204ff;
             }
          </style>
          <!-- End Google Tag Manager -->
@@ -120,9 +122,9 @@
                          <span class="text-blue-400">xlve</span>
                          <h2 class="text-3xl mt-6 tracking-tight font-light lg:text-6xl text-white text-balance">
                              RouteIQ
+                             <span class="text-zinc-400 text-sm"><a class="download-icon" onclick="downloadFile()" title="Download">Download Proposal</a></span>
                          </h2>
                          <br>
-                         <p class="text-zinc-400 text-sm"><a class="download-icon" onclick="downloadFile()" title="Download">Download Proposal</a></p>
                          
                      </div>
                      <img class="mt-12 lg:mt-0 object-cover rounded-[3rem] border-white" src="/images/routeiq/routeiq.png" alt="#">
