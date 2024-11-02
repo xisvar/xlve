@@ -17,6 +17,30 @@
                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-T9TQC6TR');
          </script>
+         <style>
+            .download-icon {
+                display: inline-block;
+                width: 34px;
+                height: 34px;
+                background-color: #e204ff; /* Green color for icon */
+                mask: url('download-icon.svg') no-repeat center; /* SVG file for download icon */
+                mask-size: contain;
+                -webkit-mask: url('download-icon.svg') no-repeat center;
+                -webkit-mask-size: contain;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+                margin-left: 1rem;
+                transform: translateY(.4rem);
+            }
+
+            .download-icon:hover {
+                background-color: #C317EC;
+            }
+
+            .download-icon:active {
+                background-color: #e204ff;
+            }
+         </style>
          <!-- End Google Tag Manager -->
         <meta name="title" content="xlve">
         <meta name="description" content="where passionate individuals solve real-world problems">
@@ -24,10 +48,9 @@
         <meta property="og:title" content="xlve">
         <meta property="og:description" content="where passionate individuals solve real-world problems">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://www.xlve.xyz/routeiq">
-        <link rel="canonical" href="https://www.xlve.xyz/routeiq">
+        <meta property="og:url" content="#">
         <meta property="og:image" content="https://xlvehq.vercel.app/images/Thumbnail.png">
-        <meta property="og:site_name" content="xlvehq">
+        <meta property="og:site_name" content="xlve">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:description" content="#">
         <meta name="twitter:image" content="#">
@@ -99,7 +122,10 @@
                          <span class="text-blue-400">xlve</span>
                          <h2 class="text-3xl mt-6 tracking-tight font-light lg:text-6xl text-white text-balance">
                              RouteIQ
+                             <span class="text-zinc-400 text-sm"><a class="download-icon" onclick="downloadFile()" title="Download">Download Proposal</a></span>
                          </h2>
+                         <br>
+                         
                      </div>
                      <img class="mt-12 lg:mt-0 object-cover rounded-[3rem] border-white" src="/images/routeiq/routeiq.png" alt="#">
                  </div>
@@ -246,6 +272,22 @@
                          </div>
                      </div>
                  </div>
+
+             
+               <script>
+                 // JavaScript function to download a file
+                 function downloadFile() {
+                   const fileUrl = 'routeIQ.docx'; // Replace with the file path or URL
+                   const fileName = 'RouteIQ by xlve (proposal)'; // Replace with the file's display name
+             
+                   const anchor = document.createElement('a');
+                   anchor.href = fileUrl;
+                   anchor.download = fileName;
+                   document.body.appendChild(anchor);
+                   anchor.click();
+                   document.body.removeChild(anchor);
+                 }
+               </script>
              </div>
          </section>
      </main>
@@ -274,11 +316,11 @@
                     <div>
                        <h3 class="text-white text-sm">links</h3>
                        <ul role="list" class="mt-4 space-y-2">
-                          <li> <a title="apply for s1" aria-label="apply for s1" href="/apply" class="hover:text-white">
+                          <li> <a title="apply for a funding" aria-label="apply for a funding" href="/apply" class="hover:text-white">
                              apply for a xlve s1
                              </a> 
                           </li>
-                          <li> <a title="view the ideas backed by xlve" aria-label="view the ideas backed by xlve" href="/portfolio" class="hover:text-white">
+                          <li> <a title="view the companies backed by xlve" aria-label="view the companies backed by xlve" href="/portfolio" class="hover:text-white">
                              our portfolio
                              </a> 
                           </li>
