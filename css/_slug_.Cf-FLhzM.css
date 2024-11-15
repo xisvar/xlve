@@ -2983,6 +2983,11 @@ select {
     --tw-ring-color: rgb(255 255 255 / .1)
 }
 
+.ring-white {
+    --tw-ring-color: rgb(255 255 255)
+}
+
+
 .ring-white\/20 {
     --tw-ring-color: rgb(255 255 255 / .2)
 }
