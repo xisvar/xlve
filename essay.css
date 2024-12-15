@@ -113,7 +113,7 @@ font-size: 16px;
 }
 
 p {
-font-size: 13px;
+font-size: 16px;
 }
 }
 
@@ -132,19 +132,19 @@ padding: 8px 16px;
 }
 
 h1 {
-font-size: 22px;
+font-size: 24px;
 }
 
 h2 {
-font-size: 18px;
+font-size: 21px;
 }
 
 h3 {
-font-size: 14px;
+font-size: 18px;
 }
 
 p {
-font-size: 12px;
+font-size: 16px;
 }
 }
 
@@ -167,11 +167,11 @@ font-size: 20px;
 }
 
 h3 {
-font-size: 16px;
+font-size: 18px;
 }
 
 p {
-font-size: 13px;
+font-size: 16px;
 }
 }
 
@@ -185,24 +185,24 @@ height: 80vh;
 }
 
 .frame h1 {
-font-size: 24px;
+font-size: 26px;
 padding: 8px 16px;
 }
 
 h1 {
-font-size: 22px;
+font-size: 26px;
 }
 
 h2 {
-font-size: 18px;
+font-size: 24px;
 }
 
 h3 {
-font-size: 14px;
+font-size: 122px;
 }
 
 p {
-font-size: 12px;
+font-size: 18px;
 }
 }
 
@@ -229,14 +229,10 @@ font-size: 16px;
 }
 
 h3 {
-font-size: 12px;
-}
-
-p {
-font-size: 11px;
+font-size: 16px;
 }
 
 em {
-font-size: 14px;
+font-size: 16px;
 }
 }
