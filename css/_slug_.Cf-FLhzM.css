@@ -9,6 +9,10 @@
     transition: .3s ease;
 }
 
+.purp{
+    color: #a600bc;
+}
+
 ::-webkit-scrollbar {
     width: 3px;
     border-radius: 55px;
